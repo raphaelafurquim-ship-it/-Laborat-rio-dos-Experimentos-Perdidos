@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Laboratório dos Experimentos Perdidos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+
+    <h1>🧪 Laboratório dos Experimentos Perdidos</h1>
+
+    <img src="laboratorio-img.png" id="labImage">
+
+    <div id="text">
+      Você acorda dentro de um laboratório vivo...
+    </div>
+
+    <div id="choices">
+      <button onclick="choice(1)">Ligar energia ⚡</button>
+      <button onclick="choice(2)">Explorar corredor 🚪</button>
+    </div>
+
+    <div class="status">
+      ⚡ Energia: <span id="energy">100</span>%
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
